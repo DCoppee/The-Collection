@@ -1,0 +1,351 @@
+@media screen and (min-width: 480px) {
+    body {
+        position: relative;
+        width: 64vw;
+        height: 1066.667vw;
+        box-sizing: border-box;
+        font-family: "Fraunces";
+        font-size: 2.4vw;
+        margin: 0%;
+    }
+    .container {
+        position: absolute;
+        width: 50vw;
+        height: 1344vw;
+        background: -webkit-linear-gradient(-29deg, rgb(214, 252, 255), rgb(0, 179, 192));
+        background: linear-gradient(-29deg, rgb(214, 252, 255), rgb(0, 179, 192));        
+        display: block;
+    }
+    header {
+        position: relative;
+        width: 50vw;
+        height: 93.867vw;
+    }
+    h1 {
+        position: absolute;
+        width: 43.6vw;
+        height: 13.067vw;
+        margin-left: 3.2vw;
+        margin-top: 4.267vw;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 5.333vw;
+        line-height: 6.576vw;
+        text-align: center;
+        letter-spacing: 0.833vw;
+        text-transform: uppercase;
+    }
+    h2 {
+        position: absolute;
+        width: 43.6vw;
+        height: 13.067vw;
+        margin-left: 3.2vw;
+        margin-top: 21.333vw;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 2.56vw;
+        line-height: 6.576vw;
+        text-align: center;
+    }
+    h3 {
+        position: absolute;
+        width: 43.6vw;
+        height: 13.067vw;
+        margin-left: 3.2vw;
+        margin-top: 32vw;
+        color: white;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 3.413vw;
+        line-height: 6.576vw;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .p_header {
+        position: absolute;
+        margin-top: 59.733vw;
+        margin-left: 2.56vw;
+        margin-right: 2.56vw;
+        color: white;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2.4vw;
+        line-height: 4vw;
+        text-align: center;
+        letter-spacing: 0.017vw;
+    }
+    main {
+        position: relative;
+        width: 50vw;
+        height: 1066.667vw;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+    section {
+        position:relative;
+        width: 46.933vw;
+        height: 117.333vw;
+        background: -webkit-radial-gradient(rgb(239, 247, 255), rgb(221, 233, 245));
+        background: radial-gradient(rgb(239, 247, 255), rgb(221, 233, 245));
+        border-radius: 5%;
+    }
+    img {
+        position:absolute;
+        opacity: 30%;
+        border-radius: 5%;
+        width: 37.333vw;
+        top: 4.267vw;
+        left: 4.267vw;
+    }
+    h4 {
+        position: relative;
+        top: 57.6vw;
+        margin-left: 3.84vw;
+        padding-right: 2.773vw;
+        font-family: 'Barlow';
+        font-weight: bold;
+        font-size: 5.547vw;
+        letter-spacing: 0.085vw;
+        text-transform: uppercase;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    h5 {
+        position: relative;
+        top: 51.2vw;
+        left: 4.267vw;
+        font-family: 'Barlow';
+        font-weight: bold;
+        font-size: 2.133vw;
+        letter-spacing: 0.64vw;
+        text-transform: uppercase;
+        display: flex;
+    }
+    h6 {
+        position: relative;
+        top: 48vw;
+        left: 4.267vw;
+        font-family: 'Barlow';
+        font-weight: bold;
+        font-size: 1.707vw;
+        letter-spacing: 0.64vw;
+        text-transform: uppercase;
+        display: flex;
+    }
+    .originalMembers {
+        position: relative;
+        width: 42.667vw;
+        height: 3.2vw;
+        top: 45.867vw;
+        left: 4.267vw;
+        right: 4.267vw;
+        font-family: 'Barlow';
+        font-size: 1.707vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .trueStory {
+        position: relative;
+        width: 42.667vw;
+        height: 32vw;
+        top: 40.533vw;
+        left: 2.133vw;
+        right: 6.4vw;
+        font-family: "Barlow";
+        font-style: italic;
+        font-size: 2.347vw;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+    }
+    .lastAlbum {
+        position: absolute;
+        width: 42.667vw;
+        height: 3.2vw;
+        left: 4.267vw;
+        right: 6.4vw;
+        bottom: 2.133vw;
+        font-family: 'Barlow';
+        font-size: 1.707vw;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        position: relative;
+        width: 192vw;
+        height: 500vw;
+        box-sizing: border-box;
+        font-family: "Fraunces";
+        font-size: 2.4vw;
+        margin: 0%;
+    }
+    .container {
+        position: absolute;
+        width: 190vw;
+        height: 700vw;
+        background: -webkit-linear-gradient(-29deg, rgb(214, 252, 255), rgb(0, 179, 192));
+        background: linear-gradient(-29deg, rgb(214, 252, 255), rgb(0, 179, 192));        
+        display: block;
+    }
+    header {
+        position: relative;
+        width: 190vw;
+        height: 300vw;
+    }
+    h1 {
+        position: absolute;
+        width: 43.6vw;
+        height: 13.067vw;
+        margin-left: 3.2vw;
+        margin-top: 4.267vw;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 7vw;
+        line-height: 6.576vw;
+        text-align: center;
+        letter-spacing: 0.833vw;
+        text-transform: uppercase;
+    }
+    h2 {
+        position: absolute;
+        width: 43.6vw;
+        height: 13.067vw;
+        margin-left: 3.2vw;
+        margin-top: 21.333vw;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 2.56vw;
+        line-height: 6.576vw;
+        text-align: center;
+    }
+    h3 {
+        position: absolute;
+        width: 43.6vw;
+        height: 13.067vw;
+        margin-left: 3.2vw;
+        margin-top: 32vw;
+        color: white;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 3.413vw;
+        line-height: 6.576vw;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .p_header {
+        position: absolute;
+        margin-top: 59.733vw;
+        margin-left: 2.56vw;
+        margin-right: 2.56vw;
+        color: white;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2.4vw;
+        line-height: 4vw;
+        text-align: center;
+        letter-spacing: 0.017vw;
+    }
+    main {
+        position: relative;
+        width: 50vw;
+        height: 1066.667vw;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+    section {
+        position:relative;
+        width: 46.933vw;
+        height: 117.333vw;
+        background: -webkit-radial-gradient(rgb(239, 247, 255), rgb(221, 233, 245));
+        background: radial-gradient(rgb(239, 247, 255), rgb(221, 233, 245));
+        border-radius: 5%;
+    }
+    img {
+        position:absolute;
+        opacity: 30%;
+        border-radius: 5%;
+        width: 37.333vw;
+        top: 4.267vw;
+        left: 4.267vw;
+    }
+    h4 {
+        position: relative;
+        top: 57.6vw;
+        margin-left: 3.84vw;
+        padding-right: 2.773vw;
+        font-family: 'Barlow';
+        font-weight: bold;
+        font-size: 5.547vw;
+        letter-spacing: 0.085vw;
+        text-transform: uppercase;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    h5 {
+        position: relative;
+        top: 51.2vw;
+        left: 4.267vw;
+        font-family: 'Barlow';
+        font-weight: bold;
+        font-size: 2.133vw;
+        letter-spacing: 0.64vw;
+        text-transform: uppercase;
+        display: flex;
+    }
+    h6 {
+        position: relative;
+        top: 48vw;
+        left: 4.267vw;
+        font-family: 'Barlow';
+        font-weight: bold;
+        font-size: 1.707vw;
+        letter-spacing: 0.64vw;
+        text-transform: uppercase;
+        display: flex;
+    }
+    .originalMembers {
+        position: relative;
+        width: 42.667vw;
+        height: 3.2vw;
+        top: 45.867vw;
+        left: 4.267vw;
+        right: 4.267vw;
+        font-family: 'Barlow';
+        font-size: 1.707vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .trueStory {
+        position: relative;
+        width: 42.667vw;
+        height: 32vw;
+        top: 40.533vw;
+        left: 2.133vw;
+        right: 6.4vw;
+        font-family: "Barlow";
+        font-style: italic;
+        font-size: 2.347vw;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+    }
+    .lastAlbum {
+        position: absolute;
+        width: 42.667vw;
+        height: 3.2vw;
+        left: 4.267vw;
+        right: 6.4vw;
+        bottom: 2.133vw;
+        font-family: 'Barlow';
+        font-size: 1.707vw;
+    }
+}
