@@ -10,7 +10,7 @@ const collection = [
         " Dominic Howard",
       ],
       trueStory: "That year, Matt Bellamy had red hair. True story.",
-      lastAlbum: "link to Will of the People (2022)",
+      lastAlbum: "https://open.spotify.com/album/68J2rIUZze8X3hAa8ali4k?autoplay=true",
       photo: "./assets/Muse.jpg"
     },
     {
@@ -25,7 +25,7 @@ const collection = [
           " Tony Truant",
         ],
         trueStory: "That year, Didier Wampas wore a pink crop top. True story.",
-        lastAlbum: "link to Tempête, Tempête (2022)",
+        lastAlbum: "https://open.spotify.com/album/3UVMHEN9JxbXms8BI1Bk58",
         photo: "./assets/Wampas.jpg",
       },
     {
@@ -34,7 +34,7 @@ const collection = [
         year: 2011,
         originalMembers: "Nick Cave",
         trueStory: "In the audience, many people were wearing the famous horseshoe mustache... What a shock when Nick appeared clean-shaven! (In fact, he was performing with his band Grinderman.)",
-        lastAlbum: "link to Carnage (2021)",
+        lastAlbum: "https://open.spotify.com/album/2ENZX0TZOt42tmCMgUyoNJ",
         photo: "./assets/Nick_Cave.jpg",
       },
       {
@@ -48,7 +48,7 @@ const collection = [
           " John Entwistle",
         ],
         trueStory: "It was more precisely Roger Daltrey interpreting The Who. He had not yet reconciled with Pete Townshend.",
-        lastAlbum: "link to Who (2019)",
+        lastAlbum: "https://open.spotify.com/album/2WuaYvGgx9MS1Vj37aBiyU",
         photo: "./assets/Who.jpg",
       },
       {
@@ -63,7 +63,7 @@ const collection = [
           " Al Jardine",
         ],
         trueStory: "The real Beach Boys! As dashing as in the 60's! With the always perfectly nasal voice of Mick Love!",
-        lastAlbum: "link to That's why God made the Radio (2018)",
+        lastAlbum: "https://open.spotify.com/album/1XtjXmGBlpgUm5OWFqarj4",
         photo: "./assets/Beach_Boys.jpg",
       },
       {
@@ -77,7 +77,7 @@ const collection = [
           " Brent De Boer",
         ],
         trueStory: "As a teenager, I was completely in love with Courtney, whom I had already seen at the Ancienne Belgique. If I had expected to see him arrive with a long braid on his shoulder...",
-        lastAlbum: "link to Why you so crazy (2022)",
+        lastAlbum: "https://open.spotify.com/album/2jWOmtU1d3CwWzc2NaeGff",
         photo: "./assets/Dandy_Warhols.jpg",
       },
       {
@@ -88,7 +88,7 @@ const collection = [
           "Thomas Fersen",
         ],
         trueStory: "I follow Thomas Fersen whenever he comes to Belgium, I think he is great. The last time I saw him, he was dressed as a rabbit. True story.",
-        lastAlbum: "link to C'est tout ce qu'il me reste (2019)",
+        lastAlbum: "https://open.spotify.com/album/3rUcuofe0MV76EYevUkODr?highlight=spotify:track:4PG9XB29PGobEgmiPiU8NB",
         photo: "./assets/Thomas_Fersen.jpg",
       },
       {
@@ -99,7 +99,7 @@ const collection = [
           "Henri Dès",
         ],
         trueStory: "Honestly, he was singing two steps away from my house, and I wouldn't have gone there?",
-        lastAlbum: "link to Casse-pieds (2013)",
+        lastAlbum: "https://open.spotify.com/album/3gxa2gEULX3DWevTB0eJk9",
         photo: "./assets/Henri_Dès.jpg",
       },
       {
@@ -110,7 +110,7 @@ const collection = [
           "Carlos Santana",
         ],
         trueStory: "My son was -3 months old at the time, so he probably benefited in utero from the burning heat of this concert, in every sense of the word.",
-        lastAlbum: "link to Power of Peace (2017)",
+        lastAlbum: "https://open.spotify.com/album/7GypVubhQFr1L5u19Hfq22",
         photo: "./assets/Santana.jpg",
       },
       {
@@ -125,7 +125,7 @@ const collection = [
           " Jon Theodore",
         ],
         trueStory: "This concert was a real release between my two pregnancies. I had already seen Josh Homme with the supergroup Them Crooked Vultures (with Dave Grohl and John Paul Jones) at Werchter.",
-        lastAlbum: "link to Villains (2017)",
+        lastAlbum: "https://open.spotify.com/album/7vuIN24G18PAUAvjnICyA6",
         photo: "./assets/QOTSA.jpg",
       },
   ];
@@ -152,7 +152,7 @@ let htmlCode = ``;
         <h6>${singleCollectionObjects.year}</h6>
         <p class="originalMembers" >${singleCollectionObjects.originalMembers}</p>
         <p class="trueStory">${singleCollectionObjects.trueStory}<p>
-        <p class="lastAlbum">Listen the last album : ${singleCollectionObjects.lastAlbum}</p>
+        <p class="lastAlbum">Listen the last album <a href="${singleCollectionObjects.lastAlbum}">here</a></p>
       </div>
     </section>
   `;
